@@ -119,21 +119,53 @@ async def answer(client, inline_query):
             InlineQueryResultArticle(
                 title="UPI ₹10",
                 input_message_content=InputTextMessageContent(
-                    "You Can Donate Us ₹10 for this Free Service"
+                    "You Can Donate Us ₹25 for this Free Service"
                 ),
                 url="https://github.com/PredatorHackerzZ",
                 description="Donate Us Some Amount as per your wish.",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [InlineKeyboardButton(
-                            "Donate ₹10",
-                            url="https://upayi.ml/sk7062563@okhdfcbank/10"
+                            "Donate ₹25",
+                            url="https://upayi.ml/sk7062563@okhdfcbank/25"
                         )]
                     ]
                 )
             ),
             InlineQueryResultArticle(
                 title="UPI ₹10",
+                input_message_content=InputTextMessageContent(
+                    "You Can Donate Us ₹50 for this Free Service"
+                ),
+                url="https://github.com/PredatorHackerzZ",
+                description="Donate Us Some Amount as per your wish.",
+                reply_markup=InlineKeyboardMarkup(
+                    [
+                        [InlineKeyboardButton(
+                            "Donate ₹50",
+                            url="https://upayi.ml/sk7062563@okhdfcbank/50"
+                        )]
+                    ]
+                )
+            ),
+            InlineQueryResultArticle(
+                title="UPI ₹10",
+                input_message_content=InputTextMessageContent(
+                    "You Can Donate Us ₹100 for this Free Service"
+                ),
+                url="https://github.com/PredatorHackerzZ",
+                description="Donate Us Some Amount as per your wish.",
+                reply_markup=InlineKeyboardMarkup(
+                    [
+                        [InlineKeyboardButton(
+                            "Donate ₹100",
+                            url="https://upayi.ml/sk7062563@okhdfcbank/100"
+                        )]
+                    ]
+                )
+            ),
+            InlineQueryResultArticle(
+                title="UPI ₹200",
                 input_message_content=InputTextMessageContent(
                     "You Can Donate Us ₹10 for this Free Service"
                 ),
@@ -142,8 +174,40 @@ async def answer(client, inline_query):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [InlineKeyboardButton(
-                            "Donate ₹10",
-                            url="https://upayi.ml/sk7062563@okhdfcbank/10"
+                            "Donate ₹200",
+                            url="https://upayi.ml/sk7062563@okhdfcbank/200"
+                        )]
+                    ]
+                )
+            ),
+            InlineQueryResultArticle(
+                title="UPI ₹300",
+                input_message_content=InputTextMessageContent(
+                    "You Can Donate Us ₹300 for this Free Service"
+                ),
+                url="https://github.com/PredatorHackerzZ",
+                description="Donate Us Some Amount as per your wish.",
+                reply_markup=InlineKeyboardMarkup(
+                    [
+                        [InlineKeyboardButton(
+                            "Donate ₹300",
+                            url="https://upayi.ml/sk7062563@okhdfcbank/300"
+                        )]
+                    ]
+                )
+            ),
+            InlineQueryResultArticle(
+                title="UPI ₹500",
+                input_message_content=InputTextMessageContent(
+                    "You Can Donate Us ₹500 for this Free Service"
+                ),
+                url="https://github.com/PredatorHackerzZ",
+                description="Donate Us Some Amount as per your wish.",
+                reply_markup=InlineKeyboardMarkup(
+                    [
+                        [InlineKeyboardButton(
+                            "Donate ₹500",
+                            url="https://upayi.ml/sk7062563@okhdfcbank/500"
                         )]
                     ]
                 )
@@ -151,79 +215,31 @@ async def answer(client, inline_query):
             InlineQueryResultArticle(
                 title="UPI ₹10",
                 input_message_content=InputTextMessageContent(
-                    "You Can Donate Us ₹10 for this Free Service"
+                    "This is My PayPal Account For International Donation Or Payment."
                 ),
                 url="https://github.com/PredatorHackerzZ",
-                description="Donate Us Some Amount as per your wish.",
+                description="Donate Us Some Amount as per your wish, If you want",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [InlineKeyboardButton(
-                            "Donate ₹10",
-                            url="https://upayi.ml/sk7062563@okhdfcbank/10"
+                            " PayPal 💳",
+                            url="https://paypal.me/AbhishekKumarIN47"
                         )]
                     ]
                 )
             ),
             InlineQueryResultArticle(
-                title="UPI ₹10",
+                title="BTC 💰",
                 input_message_content=InputTextMessageContent(
-                    "You Can Donate Us ₹10 for this Free Service"
+                    "You Can Donate Us BTC too for this Free Service."
                 ),
                 url="https://github.com/PredatorHackerzZ",
-                description="Donate Us Some Amount as per your wish.",
+                description="Donate Us 1BTC if You Are Rich.",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [InlineKeyboardButton(
-                            "Donate ₹10",
-                            url="https://upayi.ml/sk7062563@okhdfcbank/10"
-                        )]
-                    ]
-                )
-            ),
-            InlineQueryResultArticle(
-                title="UPI ₹10",
-                input_message_content=InputTextMessageContent(
-                    "You Can Donate Us ₹10 for this Free Service"
-                ),
-                url="https://github.com/PredatorHackerzZ",
-                description="Donate Us Some Amount as per your wish.",
-                reply_markup=InlineKeyboardMarkup(
-                    [
-                        [InlineKeyboardButton(
-                            "Donate ₹10",
-                            url="https://upayi.ml/sk7062563@okhdfcbank/10"
-                        )]
-                    ]
-                )
-            ),
-            InlineQueryResultArticle(
-                title="UPI ₹10",
-                input_message_content=InputTextMessageContent(
-                    "You Can Donate Us ₹10 for this Free Service"
-                ),
-                url="https://github.com/PredatorHackerzZ",
-                description="Donate Us Some Amount as per your wish.",
-                reply_markup=InlineKeyboardMarkup(
-                    [
-                        [InlineKeyboardButton(
-                            "Donate ₹10",
-                            url="https://upayi.ml/sk7062563@okhdfcbank/10"
-                        )]
-                    ]
-                )
-            ),
-            InlineQueryResultArticle(
-                title="UPI ₹10",
-                input_message_content=InputTextMessageContent(
-                    "You Can Donate Us ₹10 for this Free Service"
-                ),
-                url="https://github.com/PredatorHackerzZ",
-                description="Donate Us Some Amount as per your wish.",
-                reply_markup=InlineKeyboardMarkup(
-                    [
-                        [InlineKeyboardButton(
-                            "Donate ₹10",
-                            url="https://upayi.ml/sk7062563@okhdfcbank/10"
+                            " 🏡 Home",
+                            callback_data="back"
                         )]
                     ]
                 )
