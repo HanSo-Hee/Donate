@@ -134,7 +134,7 @@ async def answerX(bot, update):
                 )
             )
         ],
-        cache_time=1
+        cache_time=0
     )
 
 @Bot.on_callback_query()
