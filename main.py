@@ -131,6 +131,102 @@ async def answer(client, inline_query):
                         )]
                     ]
                 )
+            ),
+            InlineQueryResultArticle(
+                title="Usage",
+                input_message_content=InputTextMessageContent(
+                    "Here's how to use **Pyrogram**"
+                ),
+                url="https://docs.pyrogram.org/start/invoking",
+                description="How to use Pyrogram",
+                reply_markup=InlineKeyboardMarkup(
+                    [
+                        [InlineKeyboardButton(
+                            "Open website",
+                            url="https://docs.pyrogram.org/start/invoking"
+                        )]
+                    ]
+                )
+            ),
+            InlineQueryResultArticle(
+                title="Usage",
+                input_message_content=InputTextMessageContent(
+                    "Here's how to use **Pyrogram**"
+                ),
+                url="https://docs.pyrogram.org/start/invoking",
+                description="How to use Pyrogram",
+                reply_markup=InlineKeyboardMarkup(
+                    [
+                        [InlineKeyboardButton(
+                            "Open website",
+                            url="https://docs.pyrogram.org/start/invoking"
+                        )]
+                    ]
+                )
+            ),
+            InlineQueryResultArticle(
+                title="Usage",
+                input_message_content=InputTextMessageContent(
+                    "Here's how to use **Pyrogram**"
+                ),
+                url="https://docs.pyrogram.org/start/invoking",
+                description="How to use Pyrogram",
+                reply_markup=InlineKeyboardMarkup(
+                    [
+                        [InlineKeyboardButton(
+                            "Open website",
+                            url="https://docs.pyrogram.org/start/invoking"
+                        )]
+                    ]
+                )
+            ),
+            InlineQueryResultArticle(
+                title="Usage",
+                input_message_content=InputTextMessageContent(
+                    "Here's how to use **Pyrogram**"
+                ),
+                url="https://docs.pyrogram.org/start/invoking",
+                description="How to use Pyrogram",
+                reply_markup=InlineKeyboardMarkup(
+                    [
+                        [InlineKeyboardButton(
+                            "Open website",
+                            url="https://docs.pyrogram.org/start/invoking"
+                        )]
+                    ]
+                )
+            ),
+            InlineQueryResultArticle(
+                title="Usage",
+                input_message_content=InputTextMessageContent(
+                    "Here's how to use **Pyrogram**"
+                ),
+                url="https://docs.pyrogram.org/start/invoking",
+                description="How to use Pyrogram",
+                reply_markup=InlineKeyboardMarkup(
+                    [
+                        [InlineKeyboardButton(
+                            "Open website",
+                            url="https://docs.pyrogram.org/start/invoking"
+                        )]
+                    ]
+                )
+            ),
+            InlineQueryResultArticle(
+                title="Usage",
+                input_message_content=InputTextMessageContent(
+                    "Here's how to use **Pyrogram**"
+                ),
+                url="https://docs.pyrogram.org/start/invoking",
+                description="How to use Pyrogram",
+                reply_markup=InlineKeyboardMarkup(
+                    [
+                        [InlineKeyboardButton(
+                            "Open website",
+                            url="https://docs.pyrogram.org/start/invoking"
+                        )]
+                    ]
+                )
             )
         ],
         cache_time=1
