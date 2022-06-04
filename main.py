@@ -117,7 +117,7 @@ async def answer(client, inline_query):
                 )
             ),
             InlineQueryResultArticle(
-                title="UPI ₹10",
+                title="UPI ₹25",
                 input_message_content=InputTextMessageContent(
                     "You Can Donate Us ₹25 for this Free Service"
                 ),
@@ -133,7 +133,7 @@ async def answer(client, inline_query):
                 )
             ),
             InlineQueryResultArticle(
-                title="UPI ₹10",
+                title="UPI ₹50",
                 input_message_content=InputTextMessageContent(
                     "You Can Donate Us ₹50 for this Free Service"
                 ),
@@ -149,7 +149,7 @@ async def answer(client, inline_query):
                 )
             ),
             InlineQueryResultArticle(
-                title="UPI ₹10",
+                title="UPI ₹100",
                 input_message_content=InputTextMessageContent(
                     "You Can Donate Us ₹100 for this Free Service"
                 ),
@@ -213,7 +213,7 @@ async def answer(client, inline_query):
                 )
             ),
             InlineQueryResultArticle(
-                title="UPI ₹10",
+                title="PayPal $",
                 input_message_content=InputTextMessageContent(
                     "This is My PayPal Account For International Donation Or Payment."
                 ),
@@ -231,15 +231,15 @@ async def answer(client, inline_query):
             InlineQueryResultArticle(
                 title="BTC 💰",
                 input_message_content=InputTextMessageContent(
-                    "You Can Donate Us BTC too for this Free Service."
+                    "You Can Donate Us BTC too for this Free Service. My BTC Account Coming Soon."
                 ),
                 url="https://github.com/PredatorHackerzZ",
                 description="Donate Us 1BTC if You Are Rich.",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [InlineKeyboardButton(
-                            " 🏡 Home",
-                            callback_data="back"
+                            "Created By Owner",
+                            url="https://t.me/TheTeleRoid"
                         )]
                     ]
                 )
