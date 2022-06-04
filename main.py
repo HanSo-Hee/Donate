@@ -8,7 +8,8 @@ from pyrogram.errors import QueryIdInvalid
 from pyrogram.types import InlineKeyboardButton
 from pyrogram.types import InlineKeyboardMarkup
 from pyrogram.types import InputTextMessageContent
-from pyrogram.types import InlineQueryResultArticle
+from pyrogram.types import (InlineQueryResultArticle, InputTextMessageContent,
+                            InlineKeyboardMarkup, InlineKeyboardButton)
 
 
 Bot = Client(
@@ -99,16 +100,42 @@ async def bots(bot, update):
 async def answerX(bot, update):
 
     answer = list()
-    answer.append(InlineQueryResultArticle(title="This is My Donation Or Payment Bot", description="You Can Donate Us Using Inline.",
-    input_message_content=InputTextMessageContent(message_text="Please donate us any amount you like, to support the services."),
-    reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton("Dᴏɴᴀᴛᴇ 💳", url="https://p.paytm.me/xCTH/n6kio0sk") ] ] ),
-    thumb_url="https://telegra.ph/file/330bd070950b8ef775ca9.jpg") )
-    try:
-        await update.answer(results=answer, cache_time=0)
-    except Exception as e:
-        print(f"🚸 ERROR : {e}")
-    except QueryIdInvalid:
-        pass
+    answer.append(
+            InlineQueryResultArticle(
+                title="Installation",
+                input_message_content=InputTextMessageContent(
+                    "Here's how to install **Pyrogram**"
+                ),
+                url="https://docs.pyrogram.org/intro/install",
+                description="How to install Pyrogram",
+                reply_markup=InlineKeyboardMarkup(
+                    [
+                        [InlineKeyboardButton(
+                            "Open website",
+                            url="https://docs.pyrogram.org/intro/install"
+                        )]
+                    ]
+                )
+            ),
+            InlineQueryResultArticle(
+                title="Usage",
+                input_message_content=InputTextMessageContent(
+                    "Here's how to use **Pyrogram**"
+                ),
+                url="https://docs.pyrogram.org/start/invoking",
+                description="How to use Pyrogram",
+                reply_markup=InlineKeyboardMarkup(
+                    [
+                        [InlineKeyboardButton(
+                            "Open website",
+                            url="https://docs.pyrogram.org/start/invoking"
+                        )]
+                    ]
+                )
+            )
+        ],
+        cache_time=1
+    )
 
 @Bot.on_callback_query()
 async def cb_handler(bot, update):
