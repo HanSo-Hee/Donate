@@ -101,129 +101,129 @@ async def answer(client, inline_query):
     await inline_query.answer(
         results=[
             InlineQueryResultArticle(
-                title="Installation",
+                title="UPI ₹10",
                 input_message_content=InputTextMessageContent(
-                    "Here's how to install **Pyrogram**"
+                    "You Can Donate Us ₹10 for this Free Service"
                 ),
-                url="https://docs.pyrogram.org/intro/install",
-                description="How to install Pyrogram",
+                url="https://github.com/PredatorHackerzZ",
+                description="Donate Us Some Amount as per your wish.",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [InlineKeyboardButton(
-                            "Open website",
-                            url="https://docs.pyrogram.org/intro/install"
+                            "Donate ₹10",
+                            url="https://upayi.ml/sk7062563@okhdfcbank/10"
                         )]
                     ]
                 )
             ),
             InlineQueryResultArticle(
-                title="Usage",
+                title="UPI ₹10",
                 input_message_content=InputTextMessageContent(
-                    "Here's how to use **Pyrogram**"
+                    "You Can Donate Us ₹10 for this Free Service"
                 ),
-                url="https://docs.pyrogram.org/start/invoking",
-                description="How to use Pyrogram",
+                url="https://github.com/PredatorHackerzZ",
+                description="Donate Us Some Amount as per your wish.",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [InlineKeyboardButton(
-                            "Open website",
-                            url="https://docs.pyrogram.org/start/invoking"
+                            "Donate ₹10",
+                            url="https://upayi.ml/sk7062563@okhdfcbank/10"
                         )]
                     ]
                 )
             ),
             InlineQueryResultArticle(
-                title="Usage",
+                title="UPI ₹10",
                 input_message_content=InputTextMessageContent(
-                    "Here's how to use **Pyrogram**"
+                    "You Can Donate Us ₹10 for this Free Service"
                 ),
-                url="https://docs.pyrogram.org/start/invoking",
-                description="How to use Pyrogram",
+                url="https://github.com/PredatorHackerzZ",
+                description="Donate Us Some Amount as per your wish.",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [InlineKeyboardButton(
-                            "Open website",
-                            url="https://docs.pyrogram.org/start/invoking"
+                            "Donate ₹10",
+                            url="https://upayi.ml/sk7062563@okhdfcbank/10"
                         )]
                     ]
                 )
             ),
             InlineQueryResultArticle(
-                title="Usage",
+                title="UPI ₹10",
                 input_message_content=InputTextMessageContent(
-                    "Here's how to use **Pyrogram**"
+                    "You Can Donate Us ₹10 for this Free Service"
                 ),
-                url="https://docs.pyrogram.org/start/invoking",
-                description="How to use Pyrogram",
+                url="https://github.com/PredatorHackerzZ",
+                description="Donate Us Some Amount as per your wish.",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [InlineKeyboardButton(
-                            "Open website",
-                            url="https://docs.pyrogram.org/start/invoking"
+                            "Donate ₹10",
+                            url="https://upayi.ml/sk7062563@okhdfcbank/10"
                         )]
                     ]
                 )
             ),
             InlineQueryResultArticle(
-                title="Usage",
+                title="UPI ₹10",
                 input_message_content=InputTextMessageContent(
-                    "Here's how to use **Pyrogram**"
+                    "You Can Donate Us ₹10 for this Free Service"
                 ),
-                url="https://docs.pyrogram.org/start/invoking",
-                description="How to use Pyrogram",
+                url="https://github.com/PredatorHackerzZ",
+                description="Donate Us Some Amount as per your wish.",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [InlineKeyboardButton(
-                            "Open website",
-                            url="https://docs.pyrogram.org/start/invoking"
+                            "Donate ₹10",
+                            url="https://upayi.ml/sk7062563@okhdfcbank/10"
                         )]
                     ]
                 )
             ),
             InlineQueryResultArticle(
-                title="Usage",
+                title="UPI ₹10",
                 input_message_content=InputTextMessageContent(
-                    "Here's how to use **Pyrogram**"
+                    "You Can Donate Us ₹10 for this Free Service"
                 ),
-                url="https://docs.pyrogram.org/start/invoking",
-                description="How to use Pyrogram",
+                url="https://github.com/PredatorHackerzZ",
+                description="Donate Us Some Amount as per your wish.",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [InlineKeyboardButton(
-                            "Open website",
-                            url="https://docs.pyrogram.org/start/invoking"
+                            "Donate ₹10",
+                            url="https://upayi.ml/sk7062563@okhdfcbank/10"
                         )]
                     ]
                 )
             ),
             InlineQueryResultArticle(
-                title="Usage",
+                title="UPI ₹10",
                 input_message_content=InputTextMessageContent(
-                    "Here's how to use **Pyrogram**"
+                    "You Can Donate Us ₹10 for this Free Service"
                 ),
-                url="https://docs.pyrogram.org/start/invoking",
-                description="How to use Pyrogram",
+                url="https://github.com/PredatorHackerzZ",
+                description="Donate Us Some Amount as per your wish.",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [InlineKeyboardButton(
-                            "Open website",
-                            url="https://docs.pyrogram.org/start/invoking"
+                            "Donate ₹10",
+                            url="https://upayi.ml/sk7062563@okhdfcbank/10"
                         )]
                     ]
                 )
             ),
             InlineQueryResultArticle(
-                title="Usage",
+                title="UPI ₹10",
                 input_message_content=InputTextMessageContent(
-                    "Here's how to use **Pyrogram**"
+                    "You Can Donate Us ₹10 for this Free Service"
                 ),
-                url="https://docs.pyrogram.org/start/invoking",
-                description="How to use Pyrogram",
+                url="https://github.com/PredatorHackerzZ",
+                description="Donate Us Some Amount as per your wish.",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [InlineKeyboardButton(
-                            "Open website",
-                            url="https://docs.pyrogram.org/start/invoking"
+                            "Donate ₹10",
+                            url="https://upayi.ml/sk7062563@okhdfcbank/10"
                         )]
                     ]
                 )
