@@ -96,7 +96,7 @@ async def bots(bot, update):
         quote=True
     )
 
-@app.on_inline_query()
+@Bot.on_inline_query()
 async def answer(client, inline_query):
     await inline_query.answer(
         results=[
