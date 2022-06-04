@@ -96,11 +96,10 @@ async def bots(bot, update):
         quote=True
     )
 
-@Bot.on_inline_query()
-async def answerX(bot, update):
-
-    answer = list()
-    answer.append[
+@app.on_inline_query()
+async def answer(client, inline_query):
+    await inline_query.answer(
+        results=[
             InlineQueryResultArticle(
                 title="Installation",
                 input_message_content=InputTextMessageContent(
@@ -134,7 +133,7 @@ async def answerX(bot, update):
                 )
             )
         ],
-        cache_time=0
+        cache_time=1
     )
 
 @Bot.on_callback_query()
