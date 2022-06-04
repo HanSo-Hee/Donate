@@ -100,7 +100,7 @@ async def bots(bot, update):
 async def answerX(bot, update):
 
     answer = list()
-    answer.append(
+    answer.append[
             InlineQueryResultArticle(
                 title="Installation",
                 input_message_content=InputTextMessageContent(
