@@ -36,9 +36,11 @@ DONATE_BUTTONS = [
 ]
 
 DONATE_TEXT = """Hᴇʏ! {}
-Yᴏᴜ Cᴀɴ Dᴏɴᴀᴛᴇ Uꜱ Uꜱɪɴɢ UPI.
+Yᴏᴜ Cᴀɴ Dᴏɴᴀᴛᴇ Uꜱ Uꜱɪɴɢ UPI [India].
 
-PayTm/PhonePe/GooglePay - `sk7062563@okhdfcbank`
+GooglePay - `sk7062563@okhdfcbank`
+
+PayTM / PhonePe - `MrAbhi2k3@apl`
 
 Oʀ Cᴏɴᴛᴀcᴛ Uꜱ :- [ツAʙʜɪsʜᴇᴋ Kᴜᴍᴀʀ 🇮🇳](https://telegram.me/HelpLessBoi). """
 
@@ -78,16 +80,16 @@ async def start(bot, update):
     )
 
 
-@Bot.on_message(filters.private & filters.command(["donate"]))
+@Bot.on_message(filters.command(["donate"]))
 async def donate(bot, update):
     await update.reply_text(
-        text="Click the Following Button to Donate Us.",
+        text=BUTTON_TEXT,
         reply_markup=InlineKeyboardMarkup([PAY_BUTTONS]),
         disable_web_page_preview=True,
         quote=True
     )
 
-@Bot.on_message(filters.private & filters.command(["bots"]))
+@Bot.on_message(filters.command(["bots"]))
 async def bots(bot, update):
     await update.reply_text(
         text="https://t.me/+t1ko_FOJxhFiOThl",
