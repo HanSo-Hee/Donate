@@ -53,7 +53,8 @@ UPI_BUTTONS = InlineKeyboardMarkup(
             InlineKeyboardButton(" PayPal ", url="https://paypal.me/AbhishekKumarIN47")
         ],
         [
-            InlineKeyboardButton('Close', callback_data='close')
+            InlineKeyboardButton("Ko-Fi", url="https://ko-fi.com/Abhishekkumarin47"),
+            InlineKeyboardButton("Close", callback_data="close")
         ]
     ]
 )
