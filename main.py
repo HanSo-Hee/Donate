@@ -66,7 +66,9 @@ PAY_BUTTONS = InlineKeyboardMarkup(
             InlineKeyboardButton(" PayPal ", url="https://paypal.me/AbhishekKumarIN47")
         ],
         [
+
             InlineKeyboardButton('Close', callback_data='close')
+
         ]
     ]
 )
@@ -84,7 +86,7 @@ async def start(bot, update):
 @Bot.on_message(filters.command(["donate"]))
 async def donate(bot, update):
     await update.reply_text(
-        text=BUTTON_TEXT,
+        text=BUTTON_TEXT.format(update.from_user.mention),
         reply_markup=InlineKeyboardMarkup([PAY_BUTTONS]),
         disable_web_page_preview=True,
         quote=True
