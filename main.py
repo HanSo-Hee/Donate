@@ -112,6 +112,7 @@ async def answer(client, inline_query):
                 ),
                 url="https://github.com/PredatorHackerzZ",
                 description="Donate Us Some Amount as per your wish.",
+                photo="https://graph.org/file/92de75471809eb6645991.jpg",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [InlineKeyboardButton(
