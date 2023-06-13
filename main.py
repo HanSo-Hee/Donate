@@ -1,4 +1,4 @@
-# Developed By : Abhishek Kumar (https://telegram.me/TheTeleRoid) 
+# Developed By : Abhishek Kumar (https://telegram.me/MrAbhi2k3) 
 
 import os
 import requests
@@ -83,7 +83,7 @@ async def start(bot, update):
     )
 
 
-@Bot.on_message(filters.command(["donate"]))
+@Bot.on_message(filters.private & filters.command(["donate"]))
 async def donate(bot, update):
     await update.reply_text(
         text=BUTTON_TEXT.format(update.from_user.mention),
@@ -92,7 +92,7 @@ async def donate(bot, update):
         quote=True
     )
 
-@Bot.on_message(filters.command(["bots"]))
+@Bot.on_message(filters.private & filters.command(["bots"]))
 async def bots(bot, update):
     await update.reply_text(
         text="https://t.me/+t1ko_FOJxhFiOThl",
