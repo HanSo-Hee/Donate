@@ -11,12 +11,15 @@ from pyrogram.types import InputTextMessageContent
 from pyrogram.types import (InlineQueryResultArticle, InputTextMessageContent,
                             InlineKeyboardMarkup, InlineKeyboardButton)
 
+API_ID = int(os.environ.get('API_ID', '2387090'))
+API_HASH = os.environ.get('API_HASH', 'e9ca814a5c4fbc1c4ec93edbc8cac0af')
+BOT_TOKEN = os.environ.get('BOT_TOKEN', '5318008632:AAH8u1LhgHRbJcXo9YS9UcIuQYnX5sRHROE')
 
 Bot = Client(
     "Donate",
-    bot_token = os.environ["BOT_TOKEN", "5318008632:AAH8u1LhgHRbJcXo9YS9UcIuQYnX5sRHROE"],
-    api_id = int(os.environ["API_ID", "2387090"]),
-    api_hash = os.environ["API_HASH", "e9ca814a5c4fbc1c4ec93edbc8cac0af"]
+    bot_token = BOT_TOKEN,
+    api_id = API_ID,
+    api_hash =API_HASH,
 )
 
 
